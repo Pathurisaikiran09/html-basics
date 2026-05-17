@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Buttons</title>
+        <style>
+            .buy{
+                background-color:#ffd600;
+                color:#1f1f1f;
+                border:none;
+                border-radius:12px;
+                cursor:pointer;
+                font-family:Roboto, Arial, sans-serif;
+                font: size 12px;
+                padding: 5px;10px;
+                height: 35px;
+                width:160px;
+                transition:opacity 0.3s;
+                
+            }
+            .add-to-cart{
+                background-color:linear-gradient;
+               border:1px solid #cfcfcf;
+               border-radius:12px;
+               cursor:pointer;
+                height: 35px;
+                width:160px;
+                transition:opacity 0.1s;
+            }
+          .buy:hover{
+            opacity:0.7;
+          }
+          .buy:active{
+            opacity:0.6; 
+          }
+          .add-to-cart:hover{
+            opacity:0.5;
+          }
+            .add-to-cart:active{
+                opacity:0.6; 
+            }
+        </style>
+        </head>
+<body>
+<h1>CSS Buttons</h1>
+<button class="buy">Buy Now at &#8377;299</button>
+<button class="add-to-cart">Add to Cart</button>
+</body>
+</html>
